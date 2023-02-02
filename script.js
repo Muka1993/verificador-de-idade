@@ -5,7 +5,7 @@ function verificarIdade(){
     var resposta = window.document.getElementById('resposta')
     var imagem = window.document.getElementById('imagem')
     var corpo = window.document.querySelector('body')
-
+   
 
     if (fano.value.length == 0 || Number(fano.value) > ano) {
         window.alert('[ERRO] Verifique os dados e tente novamente! ' )
@@ -15,11 +15,11 @@ function verificarIdade(){
         if (document.getElementById('masc').checked) {
             genero = 'Homem'
             corpo.style.backgroundColor = '#1aa6b7'
-
+            
         } else if (document.getElementById('femi').checked) {
             genero = 'Mulher'
             corpo.style.backgroundColor = '#f5918f'
-           
+               
         }
         resposta.style.textAlign = 'center'
 
