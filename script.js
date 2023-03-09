@@ -27,10 +27,10 @@ function verificarIdade(){
         if (idade == 0){
             if(genero == 'Homem'){
                 resposta.innerHTML = `Um menininho de poucos meses ou dias! `
-                imagem.src = './imagens/bebe_menino.png'
+                imagem.src = 'imagens/bebe_menino.png'
             } else if (genero == 'Mulher') {
                 resposta.innerHTML = `Uma menininha de poucos meses ou dias! `
-                imagem.src = './imagens/bebe_menina.png'
+                imagem.src = 'imagens/bebe_menina.png'
             } 
 
             // VERIFICAR SE É UMA CRIANÇA COM IDADE ATÉ 12 ANOS
@@ -38,12 +38,12 @@ function verificarIdade(){
             if (genero == 'Homem') {
                 genero = 'Menino'
                 resposta.innerHTML = `${genero} de ${idade} anos!`
-                imagem.src = './imagens/menino_crianca.png'
+                imagem.src = 'imagens/menino_crianca.png'
 
             } else if (genero == 'Mulher') {
                 genero = 'Menina'
                 resposta.innerHTML = `${genero} de ${idade} anos!`
-                imagem.src = './imagens/menina_crianca.png'
+                imagem.src = 'imagens/menina_crianca.png'
             }
             
             // VERIFICAR SE É UM/UMA ADOLESCENTE COM IDADE ATÉ 18 ANOS
@@ -51,12 +51,12 @@ function verificarIdade(){
             if (genero == 'Homem') {
                 genero = 'Jovem Rapaz'
                 resposta.innerHTML = `${genero} de ${idade} anos!`
-                imagem.src = './imagens/jovem_rapaz.png'
+                imagem.src = 'imagens/jovem_rapaz.png'
 
             } else if (genero = 'Mulher') {
                 genero = 'Jovem Moça'
                 resposta.innerHTML = `${genero} de ${idade} anos!`
-                imagem.src = './imagens/jovem_moca.png'
+                imagem.src = 'imagens/jovem_moca.png'
 
             }
 
@@ -65,12 +65,12 @@ function verificarIdade(){
             if (genero == 'Homem') {
                 genero = 'Homem jovem'
                 resposta.innerHTML = `${genero} de ${idade} anos!`
-                imagem.src = './imagens/homem_jovem.png'
+                imagem.src = 'imagens/homem_jovem.png'
 
             } else if (genero = 'Mulher') {
                 genero = 'Mulher jovem'
                 resposta.innerHTML = `${genero} de ${idade} anos!`
-                imagem.src = './imagens/mulher_jovem.png'
+                imagem.src = 'imagens/mulher_jovem.png'
             }
           
             // VERIFICAR SE É ADULTO COM IDADE MENOR QUE 50 ANOS
@@ -78,12 +78,12 @@ function verificarIdade(){
             if (genero == 'Homem') {
                 genero = 'Homem'
                 resposta.innerHTML = `${genero} de ${idade} anos!`
-                imagem.src = './imagens/homem_30mais.png'
+                imagem.src = 'imagens/homem_30mais.png'
 
             } else if (genero = 'Mulher') {
                 genero = 'Mulher'
                 resposta.innerHTML = `${genero} de ${idade} anos!`
-                imagem.src = './imagens/mulher_30mais.png'
+                imagem.src = 'imagens/mulher_30mais.png'
             }
           
             // VERIFICAR SE É UM IDOSO COM IDADE ATÉ 120 ANOS
@@ -91,25 +91,25 @@ function verificarIdade(){
             if (genero == 'Homem') {
                 genero = 'Homem Idoso'
                 resposta.innerHTML = `${genero} de ${idade} anos!`
-                imagem.src = './imagens/idoso_homem.png'
+                imagem.src = 'imagens/idoso_homem.png'
 
             } else if (genero = 'Mulher') {
                 genero = 'Mulher Idosa'
                 resposta.innerHTML = `${genero} de ${idade} anos!`
-                imagem.src = './imagens/idosa_mulher.png'
+                imagem.src = 'imagens/idosa_mulher.png'
             }
 
-          //VERIFICAR SE O IDOSO TEM MAIS DE 120 ANOS MORTE
+          //VERIFICAR SE O IDOSO TEM MAIS DE 120 AS MORTE
         } else if (idade > 120) {
             if (genero == 'Homem') {
                 genero = 'Homem'
                 resposta.innerHTML = `${genero} de ${idade} anos! A ESSA ALTURA JÁ MORREU!`
-                imagem.src = './imagens/cruz_morte.png'
+                imagem.src = 'imagens/cruz_morte.png'
 
             } else if (genero = 'Mulher') {
                 genero = 'Mulher'
                 resposta.innerHTML = `${genero} de ${idade} anos! A ESSA IDADE JÁ MORREU!`
-                imagem.src = './imagens/cruz_morte.png'
+                imagem.src = 'imagens/cruz_morte.png'
             }   
         }
     }
