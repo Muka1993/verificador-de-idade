@@ -14,7 +14,7 @@ function verificarIdade(){
         var genero = ''
         if (document.getElementById('masc').checked) {
             genero = 'Homem'
-            corpo.style.backgroundColor = '#1aa6b7'
+            corpo.style.backgroundColor = '#108cc6'
             
         } else if (document.getElementById('femi').checked) {
             genero = 'Mulher'
